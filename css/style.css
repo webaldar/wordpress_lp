@@ -136,13 +136,21 @@ h2.title {
     text-align: center;
 }
 .waiting_wrapper {
-    margin-top: 45px;
-    text-align: center;
+    width: 1122px;
+    display: flex;
+    justify-content: space-between;
+    margin: 45px auto 0;
+    
 }
-.waiting_item {
-    display: inline-block;
+.waiting_item {    
     width: 339px;
-    margin: 0 15px;
-    vertical-align: top;
-    text-align: center;
+    text-align: center;   
+}
+.waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
 }
