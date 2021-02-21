@@ -307,3 +307,25 @@ h2.title {
     font-weight: 400;
     color: #4a4a4a;
 }
+
+/* ------footer------ */
+
+.page_footer {
+    text-align: center;
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0;
+}
+
+.page_footer a, .page_footer span {
+
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+text-decoration: underline;
+color: #888888;
+}
+
+.footer_container {
+    margin: 0 auto;
+}
